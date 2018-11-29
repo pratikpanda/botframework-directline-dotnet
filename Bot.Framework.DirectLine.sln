@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AB9A3DE3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Framework.DirectLine.Client.Integration.Tests", "tests\Bot.Framework.DirectLine.Client.Integration.Tests\Bot.Framework.DirectLine.Client.Integration.Tests.csproj", "{BFA0E72E-C5AE-4AB9-9357-3675731C60AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F79E0F84-D1E8-4F8D-A4E0-B1A4BD016486}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		Build.ps1 = Build.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
