@@ -14,7 +14,10 @@ nuget:
   disable_publish_on_pr: true
 build_script:
 - ps: .\Build.ps1
-test: off
+test: 
+  assemblies:
+    only:
+    - .\tests\Bot.Framework.DirectLine.Client.Integration.Tests\bin\Release\netcoreapp2.1\Bot.Framework.DirectLine.Client.Integration.Tests.dll
 artifacts:
 - path: .\libraries\Bot.Framework.DirectLine.Client\artifacts\*.nupkg
   name: NuGet
