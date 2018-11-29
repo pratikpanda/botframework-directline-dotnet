@@ -18,6 +18,8 @@ test:
   assemblies:
     only:
     - .\tests\Bot.Framework.DirectLine.Client.Integration.Tests\bin\Release\netcoreapp2.1\Bot.Framework.DirectLine.Client.Integration.Tests.dll
+before_test:
+- ps: .\Test.ps1
 artifacts:
 - path: .\libraries\Bot.Framework.DirectLine.Client\artifacts\*.nupkg
   name: NuGet
