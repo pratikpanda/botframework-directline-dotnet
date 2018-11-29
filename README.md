@@ -18,4 +18,4 @@ Please contribute to this project, in the form of bug fixes, enhancements or new
 ## Components
 | Name | Description | NuGet |
 | ------ | ------ | ------ |
-| [DirectLine Client](libraries/Bot.Framework.DirectLine.Client) | Client for retrieving access tokens from the Bot Framework DirectLine Server. | [![NuGet version](https://img.shields.io/badge/NuGet-Package-blue.svg)](https://www.nuget.org/packages/Bot.Framework.DirectLine.Client/) |
+| [DirectLine Client](libraries/Bot.Framework.DirectLine.Client) | Client for retrieving access tokens from the Bot Framework DirectLine Server. | [![NuGet version](https://img.shields.io/badge/NuGet-1.0.0-blue.svg)](https://www.nuget.org/packages/Bot.Framework.DirectLine.Client/) |
