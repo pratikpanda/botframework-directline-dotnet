@@ -13,7 +13,7 @@ Each extension is available individually from NuGet. See each individual compone
 
 ## Contributing and Reporting Issues
 
-Please contribute to this project, in the form of bug fixes, enhancements or new extensions (based on elasticsearch only). Please fork the repo and raise a PR if you have something you would like me to review for inclusion.  If you want to discuss an idea first then the best way to do this right now is to raise a GitHub issue.
+Please contribute to this project, in the form of bug fixes, enhancements or new components. Please fork the repo and raise a PR if you have something you would like me to review for inclusion.  If you want to discuss an idea first then the best way to do this right now is to raise a GitHub issue.
 
 ## Components
 | Name | Description | NuGet |
