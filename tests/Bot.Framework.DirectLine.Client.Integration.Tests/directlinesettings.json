@@ -1,0 +1,9 @@
+{
+  "DirectLineServerSettings": {
+    "HostUrl": "https://directline.botframework.com/v3/",
+    "TokenEndpoint": "directline/tokens/generate"
+  },
+  "DirectLineClientSettings": {
+    "ClientSecret": "zDBWBb9wAPE.cwA.yPY.avGH5y_KgIBPcbtdWWIkBhzNQO5L0sxO7UAfA6Df1NI"
+  }
+}
