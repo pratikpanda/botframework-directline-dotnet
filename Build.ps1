@@ -53,6 +53,6 @@ EnsurePsbuildInstalled
 
 exec { & dotnet restore }
 
-dotnet build
+dotnet build --configuration Release
 
 exec { & dotnet pack .\libraries\Bot.Framework.DirectLine.Client -c Release -o .\artifacts }
